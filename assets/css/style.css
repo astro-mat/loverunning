@@ -1,36 +1,40 @@
-/* Asterix wildcard selector to override default styles added to the browser */
+    /* Google fonts import */
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+    /* Asterix wildcard selector to override default styles added to the browser */
 
-/* general styles */
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* generic project styles */
-    color: #3a3a3a
-}
+    /* general styles */
 
-/* Header */
-header {
-    background-color: lightcoral;
-}
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* generic project styles */
+        color: #3a3a3a;
+        font-family: 'Lato', sans-serif;
+    }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    /* make main element take up space to push footer down */
-    flex: 1 0 auto;
-}
+    /* Header */
+    header {
+        background-color: lightcoral;
+    }
 
-/* Footer */
-footer {
-    background-color: orange;
-}
+    /* Main content */
+    main {
+        background-color: lightblue;
+        /* Make main element take up any surplus space to push footer down */
+        flex: 1 0 auto;
+        /* make main element take up space to push footer down */
+        flex: 1 0 auto;
+    }
+
+    /* Footer */
+    footer {
+        background-color: orange;
+    }
